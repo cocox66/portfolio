@@ -1,145 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <a href="#home" style="color: #ff69b4; text-decoration: none; font-weight: 700; font-size: 1.2rem;">✨</a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#leadership">Leadership</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+<!-- Projects Section -->
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <h3>SmartCycle: Hormone Tracking Wearables</h3>
+            <p>Explored femtech market and hormone therapy opportunities; supported grant proposal with budget and competitor research.</p>
+            <a href="https://docs.google.com/presentation/d/1UOGxbkEKi2RwE1T8Wom-tuZ3HJgO_pAc/edit?usp=sharing&ouid=103021802684059033879&rtpof=true&sd=true" class="project-link" target="_blank">Details →</a>
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Coco Xia</h1>
-            <div class="typewriter" id="typewriter"></div>
-            <div class="locations" id="locations">
-                <span class="location-item">Stanford, California</span>
-            </div>
-            <div class="hero-social-icons" id="hero-social-icons">
-                <a href="https://www.linkedin.com/in/coco-xia-stanford" class="hero-social-icon" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="#" class="hero-social-icon" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="mailto:cocoxia@stanford.edu" class="hero-social-icon">
-                    <i class="fas fa-envelope"></i>
-                </a>
-            </div>
+        <div class="project-card">
+            <h3>Morpheus Ray-Bans (TreeHacks)</h3>
+            <p>Built a wearable that gives real-time feedback for ASL learners. Led hardware/software integration and pitched to judges.</p>
+            <a href="https://devpost.com/software/morpheus-iq2g1y" class="project-link" target="_blank">Details →</a>
         </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <h2 class="section-title">About</h2>
-        <div class="about-content">
-            <p>
-                Hi! I'm a Stanford sophomore interested in how business strategy can drive impact across healthcare and sustainability. I've explored this through projects ranging from hospital cost-benefit analyses and digital health strategy to leading student programs in healthcare innovation and ESG. Along the way, I've prototyped solutions in health tech, education, and even conservation, always focused on translating ideas into measurable outcomes. I love tackling complex problems, working with diverse stakeholders, and creating impact where business and society intersect.
-            </p>
+        <div class="project-card">
+            <h3>CRISPR Prime Editing Research</h3>
+            <p>Tested CRISPR strategies in 8,000+ clones to study heart disease. Used deep learning (chromBPNet) to predict gene expression and shared findings in lab presentations.</p>
+            <a href="https://drive.google.com/file/d/1O4RhSuT6bKyt7-cdyomn8tTEdRhmsc8d/view?usp=sharing" class="project-link" target="_blank">Details →</a>
         </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2 class="section-title">Projects</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <h3>Stanford Health Consulting Group</h3>
-                <p>Analyzed costs of disposable vs. reusable pulse oximeters, finding ~$1.9M in potential savings.</p>
-                <a href="https://drive.google.com/file/d/1_z2jLvT3DWDf_QOzF3secx1djMjO_J_g/view?usp=sharing" class="project-link" target="_blank">Details →</a>
-            </div>
-            <div class="project-card">
-                <h3>SmartCycle: Hormone Tracking Wearables</h3>
-                <p>Explored femtech market and hormone therapy opportunities; supported grant proposal with budget and competitor research.</p>
-                <a href="https://docs.google.com/presentation/d/1UOGxbkEKi2RwE1T8Wom-tuZ3HJgO_pAc/edit?usp=sharing&ouid=103021802684059033879&rtpof=true&sd=true" class="project-link" target="_blank">Details →</a>
-            </div>
-            <div class="project-card">
-                <h3>Morpheus Ray-Bans (TreeHacks)</h3>
-                <p>Built a wearable that gives real-time feedback for ASL learners. Led hardware/software integration and pitched to judges.</p>
-                <a href="https://devpost.com/software/morpheus-iq2g1y" class="project-link" target="_blank">Details →</a>
-            </div>
-            <div class="project-card">
-                <h3>CRISPR Prime Editing Research</h3>
-                <p>Tested CRISPR strategies in 8,000+ clones to study heart disease. Used deep learning (chromBPNet) to predict gene expression and shared findings in lab presentations.</p>
-                <a href="https://drive.google.com/file/d/1O4RhSuT6bKyt7-cdyomn8tTEdRhmsc8d/view?usp=sharing" class="project-link" target="_blank">Details →</a>
-            </div>
-            <div class="project-card">
-                <h3>Cure or Pandora’s Box? CRISPR-Cas9 Essay</h3>
-                <p>Assessed the risks, ethics, and policy questions of human germline editing.</p>
-                <a href="https://docs.google.com/document/d/1veeiluaJ2fnxkIeJM5jAQyoMv9Il8fN0xPYeUMP2RA4/edit?usp=sharing" class="project-link" target="_blank">Details →</a>
-            </div>
-            <div class="project-card">
-                <h3>Personal Brand on Rednote</h3>
-                <p>Create Stanford lifestyle and bio content, growing an engaged audience through authentic storytelling.</p>
-                <a href="https://xhslink.com/m/8gUFxfCZ2LZ" class="project-link" target="_blank">Details →</a>
-            </div>
+        <div class="project-card">
+            <h3>Stanford Health Consulting Group</h3>
+            <p>Analyzed costs of disposable vs. reusable pulse oximeters, finding ~$1.9M in potential savings.</p>
+            <a href="https://drive.google.com/file/d/1_z2jLvT3DWDf_QOzF3secx1djMjO_J_g/view?usp=sharing" class="project-link" target="_blank">Details →</a>
         </div>
-    </section>
-
-    <!-- Leadership Section -->
-    <section id="leadership">
-        <h2 class="section-title">Leadership</h2>
-        <div class="leadership-grid">
-            <div class="leadership-card">
-                <h3>Executive Director, Stanford SSB Catalyst</h3>
-                <p>Led Stanford’s largest undergrad biodesign program. Built curriculum, ran workshops, and organized a $2K pitch competition with 30+ industry judges.</p>
-                <a href="https://stanfordstudentsbiodesign.squarespace.com/#intro" class="project-link" target="_blank">Details →</a>
-            </div>
-            <div class="leadership-card">
-                <h3>Founder, Birdwatching Social App</h3>
-                <p>Designing a platform to share sightings and connect birders. Set product vision and wrote PRD to drive community growth.</p>
-                <a href="https://www.notion.so/Product-Requirements-Document-286b9cc9862b801b8417f6283cc282d6?source=copy_link" class="project-link" target="_blank">Details →</a>
-            </div>
-            <div class="leadership-card">
-                <h3>Seeds of Change Leader, VMware Women’s Leadership Lab</h3>
-                <p>Led workshops on STEM careers for 15 high school students and mentored biotech projects.</p>
-                <a href="https://womensleadership.stanford.edu/seeds-of-change" class="project-link" target="_blank">Details →</a>
-            </div>
+        <div class="project-card">
+            <h3>Cure or Pandora’s Box? CRISPR-Cas9 Essay</h3>
+            <p>Assessed the risks, ethics, and policy questions of human germline editing.</p>
+            <a href="https://docs.google.com/document/d/1veeiluaJ2fnxkIeJM5jAQyoMv9Il8fN0xPYeUMP2RA4/edit?usp=sharing" class="project-link" target="_blank">Details →</a>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-content">
-            <p style="color: #8892b0; margin-bottom: 2rem;">
-                Let's connect and explore opportunities to work together.
-            </p>
-            <div class="contact-icons">
-                <a href="https://www.linkedin.com/in/coco-xia-stanford" class="contact-icon" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="mailto:cocoxia@stanford.edu" class="contact-icon">
-                    <i class="fas fa-envelope"></i>
-                </a>
-            </div>
+        <div class="project-card">
+            <h3>Personal Brand on Rednote</h3>
+            <p>Create Stanford lifestyle and bio content, growing an engaged audience through authentic storytelling.</p>
+            <a href="https://xhslink.com/m/8gUFxfCZ2LZ" class="project-link" target="_blank">Details →</a>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer-motto" id="footer-typewriter">
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
+    </div>
+</section>
